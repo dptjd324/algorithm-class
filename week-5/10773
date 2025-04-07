@@ -1,0 +1,15 @@
+K = int(input())
+
+st = []
+res = 0
+for i in range(K):
+    a = int(input())
+    if a == 0:
+        st.pop()
+    else :
+        st.append(a)
+
+for i in range(len(st)):
+    res = st[i]+res
+
+print (res)
